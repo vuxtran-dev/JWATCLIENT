@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ @layer base {
+   .KanBan ul, ol {
+        list-style: revert;
+        margin: revert;
+        padding: revert;
+    }
+} 
+
+.modal-content {
+  max-height: 80vh; 
+  overflow-y: auto; 
+  padding: 20px; 
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+
+

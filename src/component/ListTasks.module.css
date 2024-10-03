@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .columns-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .columns-title{
+    font-size: x-large;
+    font-weight: 'bolder';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .columns-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .group-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .flex-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  

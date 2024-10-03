@@ -1,0 +1,8 @@
+.task-container {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .task {
+    margin-bottom: 8px;
+  }

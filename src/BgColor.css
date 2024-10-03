@@ -1,0 +1,6 @@
+.containerApp2 {
+    height: 100vh; /* Toàn bộ chiều cao */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #9ffffd, #ffaabc); /* Gradient xanh và hồng đậm hơn */
+}

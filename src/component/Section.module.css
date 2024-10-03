@@ -1,0 +1,89 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 50%;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.editor-input {
+    margin-top: 20px;
+}
+
+.section {
+    width: 300px;
+    background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: #333;
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-over {
+    background-color: #bbadad;
+}
+
+.task-container {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.task {
+    margin-bottom: 8px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.input-group>div {
+    flex: 1;
+    min-width: 45%;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-item:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+.task-item:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+.task-list {
+    position: relative;
+    width: 100%;
+}
+
+.task-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: move;
+}
